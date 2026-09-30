@@ -1,0 +1,124 @@
+body{
+  background-color: black;
+}
+h1 {
+    top: 10%;
+    left: 4%; 
+    font-family: 'Roboto',sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.5;
+    text-align:justify;
+    color: #048c00;
+    font-weight:bold;
+    text-decoration: bold;
+
+  }
+  .n{
+    background-color: black;
+    background-image:linear-gradient(rgb(15, 15, 15),rgba(22, 22, 22, 0.6)),url("https://xboxwire.thesourcemediaassets.com/sites/2/2023/05/Background-size1920x1080-4e1694a6-75aa-4c36-9d4d-7fb6a3102005-bc5318781aad7f5c8520.png");
+    background-attachment: fixed;
+    background-position: auto;
+    background-size: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    height: aut0;
+    width: auto;
+
+
+} 
+
+.t{
+    position: relative;
+     /* position: relative; */
+    z-index: 2;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: calc((100vh - 0px) / 5);
+    margin-bottom: calc((100vh - 0px) / 4);
+
+    
+h1 {
+  height: auto;
+  width:auto;
+   color:#0ff;
+    display: block;
+    font-size: 3em;
+    margin-top:0px;
+    position: static;
+
+}
+
+
+p {
+  margin-top: 190px;
+  position:relative;
+ color: #009bab;
+    display: block;
+    margin: auto;
+    unicode-bidi: isolate;
+    font-size:25px;
+    line-height: 1.6;
+    letter-spacing: 0.5;
+    font-family: 'Roboto',Arial;
+    text-align: center;
+    text-decoration: bold;
+    
+}
+}
+.home{
+  background-color: #048c00;
+  height:100px;
+  width:200px;
+  font-weight: 18px;
+  font-size: 18px;
+  text-align: center;
+  font-family: Roboto, Arial;
+  border-radius: 8px;
+  color: gainsboro;
+  align-items: center;
+  justify-content: center;
+  margin-top: 190px;
+ margin-left: auto;
+ margin-right: auto;
+ 
+}
+.home:hover{
+  background-color: #013d00;
+}
+
+
+.button_su_inner{
+   height:50px;
+   width:90px;
+   background-color: #048c00;
+   color:gainsboro;
+}
+  .button_su_inner:hover{
+    background-color: rgb(31, 100, 33);
+  }
+  
+  .foot{
+    height: 200px;
+    width: auto;
+    background-color:#013d00;;
+   
+  }
+.foot{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.h{
+   font-family: Roboto,Arial;
+}
+.tab:hover{
+  background-color: #048c00;
+}
